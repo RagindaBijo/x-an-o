@@ -1,9 +1,7 @@
 package com.example.shualeduridaigi
 
-import android.content.pm.ActivityInfo
+
 import android.graphics.Color
-import android.media.AudioManager
-import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -11,7 +9,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import java.io.IOException
+
 
 
 class first : AppCompatActivity(),View.OnClickListener{
@@ -35,7 +33,6 @@ class first : AppCompatActivity(),View.OnClickListener{
     private lateinit var textView5:TextView
     private lateinit var textView6:ImageView
     private lateinit var textView7:ImageView
-    var mediaPlayer:MediaPlayer? = null
     private var image=0
     private var activePlayer=1
     private var firstPlayer= mutableListOf<Int>()
